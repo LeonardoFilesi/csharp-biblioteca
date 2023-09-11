@@ -50,8 +50,6 @@ namespace csharp_biblioteca
             string surname = Console.ReadLine();
             Console.WriteLine("Email:");
             string email = Console.ReadLine();
-            Console.WriteLine("Contatto telefonico:");
-            int phoneContact = Console.
         }
     }
 }
