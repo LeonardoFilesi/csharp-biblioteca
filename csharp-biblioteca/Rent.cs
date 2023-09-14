@@ -8,13 +8,17 @@ namespace csharp_biblioteca
 {
     public class Rent
     {
-        public int RentId { get; set; } = new Random().Next(00001, 99999);
-        public string RentDates { get; set; }
-        public string IdCode { get; set; }
+        public string RentingUserSurname { get; set; }
+        public string ItemIdCode { get; set; }
+        public DateTime RentBeginDate { get; set; }
+        public DateTime RentEndDate { get; set; }
 
-        public Rent(string rentDates)
+        public Rent(string rentingUserSurname, string itemIdCode, DateTime rentBeginDate, DateTime rentEndDate)
         {
-            this.RentDates = rentDates;
+            this.RentingUserSurname = rentingUserSurname;
+            this.ItemIdCode = itemIdCode;
+            this.RentBeginDate = rentBeginDate;
+            this.RentEndDate = rentEndDate;
         }
     }
 }

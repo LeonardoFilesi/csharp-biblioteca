@@ -19,7 +19,8 @@ namespace csharp_biblioteca
         // COSTRUTTORE LibraryItem:
 
         public Item(string idCode, string title, string releaseDate, string sector, string placement, string author)
-        {
+        {   
+
             this.IdCode = idCode;
             this.Title = title;
             this.ReleaseDate = releaseDate;
